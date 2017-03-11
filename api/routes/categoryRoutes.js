@@ -1,7 +1,6 @@
 import Category from '../models/categoryModel.js';
 
 /* eslint-disable no-console */
-
 const categoryRoutes = (app) => {
 
   /* CREATE */
