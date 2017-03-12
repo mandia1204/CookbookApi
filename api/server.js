@@ -1,5 +1,4 @@
 import express from 'express';
-import webpack from 'webpack';
 import path from 'path';
 import open from 'open';
 import bodyParser from 'body-parser';
