@@ -20,6 +20,10 @@ import recipeRoutes from './routes/recipeRoutes.js';
 import categoryRoutes from './routes/categoryRoutes.js';
 import chefRoutes from './routes/chefRoutes.js';
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname + '/index.html'));
+});
+
 recipeRoutes(app);
 categoryRoutes(app);
 chefRoutes(app);
